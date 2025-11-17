@@ -183,3 +183,37 @@ ul{
     font-size: 1.5em;
     color: #17abb3;
 }
+
+/*pied de page*/
+
+footer{
+    color: #ffffff;
+    background-color: #17abb3;
+    text-align: center;
+}
+
+.foot{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+
+.update_date{
+    color: #ffffff;
+    margin: 10px 5px;
+    font-size: 1em;
+}
+.foot i{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
