@@ -102,3 +102,36 @@ h2{
     margin: 0px 0px 15px 0px;
 }
 
+/*création corp page section*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profil{
+    width: 70%;
+    order: 2;
+    padding: 40px;
+}
+
+
+/*mise en page section profil*/
+
+.justify{
+    text-indent: 25px;
+    text-align: justify;
+}
+.effect{
+    margin: 20px 0px;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin: 0;
+}
+
