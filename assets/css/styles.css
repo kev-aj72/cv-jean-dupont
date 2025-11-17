@@ -135,3 +135,51 @@ main{
     margin: 0;
 }
 
+/*mise en page section marge*/
+
+.marge{
+    width: 30%;
+    order: 1;
+    background-color: #e3e3e3;
+    padding: 30px;
+}
+
+/* section compétences*/
+.skils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.stars{
+    color: #17abb3;
+}
+
+/* section langues*/
+
+.speak{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.language{
+    font-weight: bolder;
+}
+
+/* liste*/
+ul{
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: square;
+}
+::marker{
+    font-size: 1.5em;
+    color: #17abb3;
+}
